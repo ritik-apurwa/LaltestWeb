@@ -74,3 +74,9 @@
       @apply bg-background text-foreground;
     }
   }
+
+  @layer components{
+    .add-grid{
+      @apply grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4
+    }
+  }

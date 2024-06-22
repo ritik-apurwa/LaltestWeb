@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={cn("min-h-screen h-dvh bg-background font-sans antialiased", fontSans.variable)}>
+        <body className={cn("min-h-screen h-screen bg-background font-sans antialiased", fontSans.variable)}>
           <div className="">
 
           </div>

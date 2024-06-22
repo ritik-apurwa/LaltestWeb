@@ -93,12 +93,39 @@ const config = {
         ".flex-center": {
           "@apply flex items-center justify-center w-full": {},
         },
-
-
-        
-
-      }); 
-      addUtilities({}); 
+        ".flexc-start": {
+          "@apply flex items-start flex-col justify-center w-full": {},
+        },
+        ".flexc-center": {
+          "@apply flex items-center flex-col justify-center w-full": {},
+        },
+        ".flexc-end": {
+          "@apply flex items-end flex-col justify-center w-full": {},
+        },
+        ".flexc-between": {
+          "@apply flex items-end flex-col justify-between w-full": {},
+        },
+        ".flexr-start": {
+          "@apply flex items-center justify-start w-full": {},
+        },
+        ".flexr-center": {
+          "@apply flex flex-row items-center justify-start w-full": {},
+        },
+        ".flexr-end": {
+          "@apply flex flex-row items-center justify-end w-full": {},
+        },
+        ".flexr-between": {
+          "@apply flex flex-row items-center justify-between w-full": {},
+        },
+        ".add-effect": {
+          "@apply transition-all duration-300 ease-in-out": {},
+        },
+        ".add-grid": {
+          "@apply grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4": {},
+        },
+       
+      });
+      addUtilities({});
     }),
   ],
 } satisfies Config;
